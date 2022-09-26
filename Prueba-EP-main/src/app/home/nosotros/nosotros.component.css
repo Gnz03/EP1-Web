@@ -1,0 +1,94 @@
+.about-area {
+    background: #fff;
+}
+
+.about-text h2 {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+    display: inline-block;
+    color: #333;
+    padding-bottom: 20px;
+}
+.about-text h2 span{
+    color: #77be2d;
+}
+.about-text h2::after{
+    position: absolute;
+    content: "";
+    background: #77be2d;
+    width: 50px;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
+.about-text p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.about-text ul {
+    margin-top: 10px;
+    margin-left: 30px;
+    list-style: none;
+}
+
+.about-text ul li {
+    line-height: 30px;
+    position: relative;
+
+}
+
+.about-text ul li:before {
+    position: absolute;
+    content: '';
+    width: 12px;
+    height: 12px;
+    left: -30px;
+    top: 50%;
+    margin-top: -5px;
+    border: 2px solid #333;
+    border-radius: 50px;
+}
+
+.about-text .btn {
+    margin-top: 15px;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+/*Fun facts area css */
+.fun-fact-area {
+    margin-top: 100px;
+}
+
+.fun-fact {
+    background: #77be2d;
+    text-align: center;
+    padding: 30px;
+    border: none;
+    margin-bottom: 30px;
+}
+
+.fun-fact.last {
+    border: none;
+}
+
+.fun-fact i.fa {
+    font-size: 32px;
+    position: relative;
+    color: #fff;
+}
+
+.fun-fact h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+.fun-fact p{
+    color: #fff;
+}

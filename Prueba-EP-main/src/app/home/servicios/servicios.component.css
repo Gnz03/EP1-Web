@@ -1,0 +1,27 @@
+.service-area {
+    background-color: #f5f5f5;
+}
+
+.pic-single-service {
+    margin-bottom: 40px;
+    background: #fff;
+}
+.pic-single-service h3{
+    color: #333;
+    font-weight: 600;
+    line-height: 24px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.pic-single-service h3:hover{
+    cursor: pointer;
+    color: #77be2d;
+}
+.pic-single-service p{
+    color: #777;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}

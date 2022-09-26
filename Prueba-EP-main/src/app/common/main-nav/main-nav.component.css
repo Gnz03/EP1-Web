@@ -1,0 +1,129 @@
+.top-bar {
+    height: 50px;
+    line-height: 50px;
+    background: #555;
+    color: #fff;
+    font-size: 14px;
+}
+.tcontact{
+    float: left;
+}
+.tcontact ul,.tsocial ul{
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+.tcontact ul li{
+    display: inline-block;
+}
+.tcontact ul li i.fa{
+    margin-right: 10px;
+}
+.tcontact ul li a{
+    color: #fff;
+    margin-right: 15px;
+}
+.tcontact ul li a:hover{
+    color: #77be2d;
+}
+.tsocial{
+    float: right;
+}
+.tsocial ul li{
+   display: inline-block;
+}
+.tsocial ul li i.fa{
+    margin-left: 10px;
+}
+.tsocial ul li i.fa:hover{
+    color: #fff;
+}
+.menu-holder {
+    height: 70px;
+}
+
+.menu-area {
+    background: #fff;
+    height: 70px;
+    z-index: 99;    
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.menu-area.sticky-menu {
+    top: 0px;
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 3px 4.7px 0.3px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+
+}
+
+.mainmenu {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+}
+
+.sticky-menu .mainmenu {
+    padding-top: 0px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0px;
+    margin-top: 13px;
+}
+
+.sticky-menu .navbar {
+    margin-top: 8px;
+}
+
+
+.sticky-menu .navbar-brand img {
+    width: 90%;
+    margin: 2% 0;
+    height: auto;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+
+.navbar-nav > li {
+    float: none;
+    display: inline-block;
+    position: relative;
+}
+
+.navbar-nav li a {
+    color: #333;
+    font-style: normal;
+    font-weight: 600;
+    font-family: "Source Sans Pro";
+}
+
+.nav > li > a:hover,
+.nav > li > a:active,
+.nav > li > a:focus {
+    background: none;
+    color: #77be2d;
+}
+
+.mainmenu li.active a {
+    color: #77be2d;
+}
+#not-active{
+    color: #333;
+}
+#not-active:hover{
+    color: #77be2d;
+}
+.ms-auto{
+    margin-right: 400px ;
+}
+.navbar-brand{
+    margin-left: 300px;
+}
